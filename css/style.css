@@ -61,6 +61,12 @@ background-color: #dddddd;
 	padding-top: 29px;
 	padding-bottom: 44px;
 }
+.portfolio-block img{
+	height:250px ;
+	width: 400px;
+}
+
+
 .portfolio-title{
 	font-size: 18px;
 	text-transform: uppercase;
