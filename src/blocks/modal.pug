@@ -1,0 +1,20 @@
+.modal(data-modal="1")
+    .modal__in.modal-container
+        .modalToggles
+            button.close
+                .page__img
+                    img(src="assets/img/krestik-2.svg", alt="" data-modal="modal").js-modal-close
+            .modal-vhod.active#vhod-1
+                p.page__text_else Проверка гарантии
+                form.form(action="")
+                    .form-wrapper
+                        p.page__text_vsm Cтрана/регион приобретения <span> *
+                        input(type="text" placeholder="Россия")
+                        p.page__text_vsm Серийный номер <span> *
+                        input(type="text" placeholder="Пример: HU265BM18V")
+                        p.page__text_vsm Ваш телефон <span> *
+                        input.smmb(type="text" placeholder="Пример: +7-999-999-99-99")
+                        p.page__text_vsm-2 Заполнив и отправив эту форму, вы предоставляете свое согласие на использование ваших данных в соотвествии с заявлением о конфиденциалности HP.<span> Подробнее о политике конфиденциалности HP
+                        .page__btn ПРОВЕРИТЬ ГАРАНТИЮ
+                        p.page__text_vsm  <span> * </span> Обязательные поля
+    <div class="overlay js-overlay-modal"></div>

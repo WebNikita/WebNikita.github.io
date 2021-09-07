@@ -1,0 +1,62 @@
+@import '../fonts/fonts.less';
+.reset();
+
+.wrapper{
+    .wrapper();
+    // .laptopMd-block({
+    //     max-width: 1200px;
+    // });
+    @media screen and (orientation: landscape){
+      
+    }
+}
+
+.scrollbar(@color_scrollbar-track, @color_scrollbar-thumb);
+
+@font-face {
+  .font(@font; @fontBold);
+}
+@font-face {
+  .font(@font; @fontRegular);
+}
+
+@font-face {
+  .font(@Inter; "@{Inter}-Regular");
+}
+
+@font-face {
+  .font(@Inter; "@{Inter}-Bold");
+}
+
+@font-face {
+  .font(@Inter; "@{Inter}-Light");
+}
+
+body {
+  font-family: @fontRegular;
+
+  &.modal-open {
+    overflow: hidden;
+  }
+
+  &.js-open-modal {
+
+    overflow: hidden;
+  }
+}
+a, button{
+  cursor: pointer;
+  &:focus{
+      outline: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+input{
+  cursor: text;
+  &:focus{
+      outline: none;
+  }
+}
